@@ -8,10 +8,10 @@ import {
   IconButton,
 } from "@material-ui/core";
 import { AddShoppingCart } from "@material-ui/icons";
-import {useStyles} from './styles';
+import useStyles from './styles';
 
 
-const Product = ({ products }) => {
+const Product = ({ product }) => {
   const classes= useStyles();
 
   return (
