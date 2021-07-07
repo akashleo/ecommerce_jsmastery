@@ -16,7 +16,7 @@ const App = () => {
   };
 
   useEffect(() => {
-    fetchproducts();
+    fetchProducts();
   }, []);
 
   console.log(products);
